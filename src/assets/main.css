@@ -1,0 +1,17 @@
+html, body, p, a, h1,h2,h3,h4,h5,h6 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1024px;
+    height: 100%;
+}
+
+.table {
+    display: table;
+}
+
+.table td {
+    display: table-cell;
+    vertical-align: middle;
+}
