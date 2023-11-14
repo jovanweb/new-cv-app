@@ -3,7 +3,11 @@
     <section class="empoloyes-list">
       <div class="d-flex align-items-center justify-content-between mb-2 pb-2 border-bottom">
         <h4 class="mb-0">Employees List</h4>
-        <input type="text" class="form-control w-25" placeholder="Search employees" v-model="searchInput">
+        <div class="d-flex align-items-center gap-2">
+          <input type="text" class="form-control w-100" placeholder="Search employees" v-model="searchInput">
+          <router-link to="/create-employee" class="btn btn-primary text-nowrap">Append Employee</router-link>
+          <router-link to="/skills-projects" class="btn btn-primary text-nowrap">Add Skills & Projects</router-link>
+        </div>
       </div>
       <div class="table-respobnsive">
         <table class="table table-striped">
@@ -48,7 +52,7 @@
                 {{user.phone}}
               </td>
               <td class="text-end">
-                <router-link :to="'/cv/' + user.id" class="btn btn-success btn-sm">Generate CV</router-link>
+                <router-link :to="'/cv/' + user.id" class="btn btn-success btn-sm">View & Edit</router-link>
               </td>
             </tr>
           </tbody>

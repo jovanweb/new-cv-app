@@ -12,8 +12,15 @@ export const employees = [
       positionInBWL: "TEAM LEAD IOS DEVELOPER",
       time: "January 2017 - Present",
       projects: ['Aspen Properties','FLD','AppArranger / HA'],
-      jobs: [],
-      education: [],
+      jobs: [
+          {"jobPosition":" QUALITY ASSURANCE ENGINEER/QUALITY ASSURANCE AUTOMATION ENGINEER/SCRUM MASTER","jobCompany":"HTEC GROUP","jobDate":"Feb 2021 - April 2023"},
+          {"jobPosition":"SOFTWARE TESTER","jobCompany":"EXECOM","jobDate":"Oct 2018 - Feb 2021"},
+      ],
+      education: [
+          {"educationUniversity":"Facility of technical sciences Novi Sad, department of Industrial engineering and management, since 2012. Educons univercity, faculty of business in service","gradeLevel":""}, 
+          {"educationUniversity":"Isidora Sekulic, gymnasium, Novi sad","gradeLevel":""}, 
+          {"educationUniversity":"Branko Radicevic, Novi sad","gradeLevel":""}, 
+      ],
   },
   {
     id:"aleksandar_petresevic",
@@ -28,7 +35,37 @@ export const employees = [
     positionInBWL: "Full-Stack Developer (Node.JS / React / React Native)",
     time: "August 2021 - Present",
     projects: ['Aspen Properties','FLD','Loop'],
-    jobs: [],
-    education: [],
-},
+    jobs: [
+        {"jobPosition":" QUALITY ASSURANCE ENGINEER/QUALITY ASSURANCE AUTOMATION ENGINEER/SCRUM MASTER","jobCompany":"HTEC GROUP","jobDate":"Feb 2021 - April 2023"},
+        {"jobPosition":"SOFTWARE TESTER","jobCompany":"EXECOM","jobDate":"Oct 2018 - Feb 2021"},
+    ],
+    education: [
+        {"educationUniversity":"Facility of technical sciences Novi Sad, department of Industrial engineering and management, since 2012. Educons univercity, faculty of business in service","gradeLevel":""}, 
+        {"educationUniversity":"Isidora Sekulic, gymnasium, Novi sad","gradeLevel":""}, 
+        {"educationUniversity":"Branko Radicevic, Novi sad","gradeLevel":""}, 
+    ],
+  },
+  {
+    id:"mica_cetkovic",
+    source: "mica_cetkovic",
+    userName: "Mica Cetkovic",
+    position: "IOS DEVELOPER",
+    phone: "+381 60 153 7226",
+    email: "mica.cetkovic@bridgewaterlabs.com",
+    website: "www.bridgewaterlabs.com",
+    location: "Jevrejska 15, 21000 Novi Sad, Serbia",
+    skills: ['iOS','Android','Kotlin/Java','Swift/Objecitve-c','Spring Boot','Xcode','Android Studio','Intellij'],
+    positionInBWL: "SOFTWARE DEVELOPER",
+    time: "2018 - Present",
+    projects: ['Aspen Properties','FLD','Loop'],
+    jobs: [
+        {"jobPosition":" QUALITY ASSURANCE ENGINEER/QUALITY ASSURANCE AUTOMATION ENGINEER/SCRUM MASTER","jobCompany":"HTEC GROUP","jobDate":"Feb 2021 - April 2023"},
+        {"jobPosition":"SOFTWARE TESTER","jobCompany":"EXECOM","jobDate":"Oct 2018 - Feb 2021"},
+    ],
+    education: [
+        {"educationUniversity":"Facility of technical sciences Novi Sad, department of Industrial engineering and management, since 2012. Educons univercity, faculty of business in service","gradeLevel":""}, 
+        {"educationUniversity":"Isidora Sekulic, gymnasium, Novi sad","gradeLevel":""}, 
+        {"educationUniversity":"Branko Radicevic, Novi sad","gradeLevel":""}, 
+    ],
+  },
 ];

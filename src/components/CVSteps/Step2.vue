@@ -3,7 +3,7 @@
         <section ref="pdfContent">
             <div class="preview-step">
                 <aside class="aside">
-                    <div class="upload-image-wrapper" v-if="dataUser.source" :style="'background-image: url(' + dataUser.source + ')'">
+                    <div class="upload-image-wrapper" v-if="dataUser.source" :style="'background-image: url(/images/avatars/' + dataUser.source + '.png)'">
                     </div>
                     <h1 class=" mb-1">{{dataUser.userName}}</h1>
                     <h2>{{dataUser.position}}</h2>
@@ -46,7 +46,7 @@
 
                     </div>
                     <ul class="list-unstyled projects-list">
-                        <li v-for="(project, index) in filteredProjects" :key="index">
+                        <li v-for="(project, index) in userProjects" :key="index">
                             <h4>{{project.name}}</h4>
                             <p>{{project.description}}</p>
                         </li>
@@ -89,7 +89,11 @@ export default {
     props: {
         dataUser: {
             type: Object,
-            reguired: true,
+            required: true,
+        },
+        userProjects: {
+            type: Array,
+            required: true,
         }
     },
     data() {
@@ -115,9 +119,6 @@ export default {
     computed: {
         filteredSkills() {
             return this.dataUser.skills.filter((item) => item.checked);
-        },
-        filteredProjects() {
-            return this.dataUser.projects.filter((item) => item.checked);
         },
     },
 }

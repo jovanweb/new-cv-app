@@ -112,7 +112,7 @@ export const projects = [
     {
         id: 23,
         name: "HiveHive",
-        description: "",
+        description: "Web application for individual and team psychological analysis.",
     },
     {
         id: 24,
@@ -186,8 +186,8 @@ export const projects = [
     },
     {
         id: 38,
-        name: "PlayCity App Inc.",
-        description: "PHP and Ruby on Rails / Native iOS and Android An app that connects you with others who are interested in the same activities.",
+        name: "PlayCity",
+        description: "PlayCity is a free app that connects you with others who are interested in the same activities. Find your best match based on skill level, availability, membership, and now others who work at the same company as you! Discover events, facilities, and locations relevant to you.",
     },
     {
         id: 39,
@@ -232,7 +232,7 @@ export const projects = [
     {
         id: 47,
         name: "HelpMe Feed",
-        description: "Web portal and Mobile apps for supporting breastfeeding mother with telehealth as well as custom video and documentation material",
+        description: "Web portal and Mobile apps for supporting breastfeeding mother with telehealth as well as custom video and documentation material.",
     },
     {
         id: 48,
@@ -247,7 +247,7 @@ export const projects = [
     {
         id: 50,
         name: "Aspen Properties",
-        description: "PHP / Laravel / Native iOS and Android Application designed for tenants of all Aspen Properties locations.",
+        description: "An all-encompassing service request, tenant communication, room bookings and mobile door access solution, specifically branded to your company. Perfect for office, residential, and retail.",
     },
     {
         id: 51,
@@ -272,7 +272,7 @@ export const projects = [
     {
         id: 55,
         name: "Loop",
-        description: "HR platform with job seeking options",
+        description: "Job board and recruitment platform. Working on loop for more then a year with great team and still working. Full scope of tasks, from creating of different functional components, pages and style components to functionality maintenance and optimisation for Loop.",
     },
     {
         id: 56,
@@ -286,8 +286,8 @@ export const projects = [
     },
     {
         id: 58,
-        name: "AppArranger / HA",
-        description: "Android/ios/React/Python/PHP laravel System for Booking all kind of services on the territory of Switzerland and Germany MVP on the end of May 2021 Two WordPress websites for marketing purposes.",
+        name: "AppArranger",
+        description: "Android/ios/React/Python/PHP laravel System for Booking all kind of services on the territory of Switzerland and Germany",
     },
     {
         id: 59,
@@ -352,7 +352,7 @@ export const projects = [
     {
         id: 71,
         name: "BlahFace",
-        description: "Social Media Platform that also enables informative reading about a wide variety of interests and topics",
+        description: "BlahFace is a free global Social Media Platform that enables informative reading about a wide variety of interests and topics like World Events, Politics and Travel.  Open communication and unfiltered news from all sides and beliefs with no bias or censorship of expression.",
     },
     {
         id: 72,
@@ -378,5 +378,75 @@ export const projects = [
         id: 76,
         name: "DriveSales",
         description: "CRM for moving companies",
+    },
+    {
+        id: 77,
+        name: "Sentry Sync",
+        description: "SentrySync is the ultimate external USB add-on accessory for your Tesla vehicle with the ability to sync dashcam and sentry videos directly to your mobile device. All footage is analyzed using our cutting edge artificial intelligence to provide additional insights such as facial and license plate recognition.",
+    },
+    {
+        id: 78,
+        name: "GeoInspect",
+        description: "Create digital inspections for your sites that can only be completed when entering the geofence of that property for full integrity.Site Managers and Site Inspectors can easily complete various digital inspections with a few easy clicks that gets submitted into a digital catalogue for easy future retrieval and sorting.",
+    },
+    {
+        id: 79,
+        name: "HotButton",
+        description: "Productivity app. Worked in a cross functional team to investigate, help define and implement key functionality. Implemented all of in-app recording which is unique to the Android version of the app. Provided code reviews and mentoring for another developer on the team. Wrote integration tests.",
+    },
+    {
+        id: 80,
+        name: "Dating Apps",
+        description: "Various dating apps smilar to Tinder in features and funcionality.",
+    },
+    {
+        id: 81,
+        name: "CheckIT Learning",
+        description: "CheckIT Learning provides a comprehensive platform that integrates classroom management tools, a learning management system, and personalized digital learning functionality, streamlining the educational experience for teachers and students alike.",
+    },
+    {
+        id: 82,
+        name: "VHire",
+        description: "A B2B platform with a marketplace connecting businesses in need of truck drivers to a pool of qualified drivers for efficient hiring and logistics operations",
+    },
+    {
+        id: 83,
+        name: "Nfticketize",
+        description: "NFT marketplace for event tickets, with implemented secure smart ticket system.",
+    },
+    {
+        id: 84,
+        name: "Lynk",
+        description: "Web system for managing and exchanging criminal records under USA territory. System is consisted of Web application written in Angular 7, .NET Core Web API and Scheduler Adapter application for easier integration with other existing similar systems.",
+    },
+    {
+        id: 85,
+        name: "OilAndGas",
+        description: "WinForms desktop application which uses Web API. This is an administrative application built for managing companies that are working with oil and gas with focus on Canada and US territory.",
+    },
+    {
+        id: 86,
+        name: "SirmiumERP",
+        description: "Desktop application in combination with Web API which represents an ERP for one medium- sized company in Serbia.",
+    },
+    {
+        id: 87,
+        name: "SuggarDaddy",
+        description: "SuggarDaddy is a matchmaking website for wealthy benefactors, and attractive guys a gals.",
+    },
+    {
+        id: 88,
+        name: "HelpArranger",
+        description: "HelpArrager offers an easy way to provide help and enables people in need of help to quickly find a matching helper. HelpArranger is a non-profit-app developed by AppArranger.",
+    },
+    {
+        id: 89,
+        name: "Groove learning",
+        description: "E-learning platform for different purposes.",
+    },
+    {
+        id: 90,
+        name: "ThemeStreet",
+        description: "",
     },
 ];
