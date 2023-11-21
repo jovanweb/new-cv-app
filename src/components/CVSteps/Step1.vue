@@ -1,7 +1,7 @@
 <template>
   <div class="container">
         <!-- <button class="btn btn-success preview-btn" @click="preview">Preview CV</button> -->
-        <CVFormTemplate :dataUser="dataUser" :projects="projects" :skills="skills" @previewData="preview" @userProjectData="getUserProjects"/>
+        <CVFormTemplate v-if="singleDataUser" :dataUser="singleDataUser" :projects="projects" :skills="skills" @previewData="preview" @userProjectData="getUserProjects"/>
     </div>
 </template>
 
@@ -16,12 +16,11 @@
         components:{
             CVFormTemplate
         },
-        emits: ['previewData', 'userProjectData'],
+        // emits: ['previewData', 'userProjectData'],
         data() {
             return {
                 projects,
                 skills,
-                // dataUser,
             }                               
         },
 
@@ -34,11 +33,16 @@
                 console.log(obj)
             }
         },
+        computed: {
+            singleDataUser() {
+                return employees.find(user => user.id === this.$route.params.id);
+            }
+        },
     
         created() {
-            this.dataUser = employees.find(user => user.id === this.$route.params.id);
             this.projects = projects
             this.skills = skills
+            // this.singleDataUser = employees.find(user => user.id === this.$route.params.id);
         },
         mounted() {
             // this.userProjects = projects.filter(e => this.dataUser.projects.includes(e.name))

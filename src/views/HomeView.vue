@@ -67,7 +67,7 @@
 
   export default { 
     name: "Home",
-
+    
     data() {
       return {
         users: employees,
