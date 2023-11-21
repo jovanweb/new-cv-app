@@ -5,7 +5,8 @@ import DayOff from '../views/DayOff.vue'
 import CVPage from '../views/CVPage.vue'
 import CreateEmployee from '../views/CreateEmployee.vue'
 import AddSkillsProjects from '../views/AddSkillsProjects.vue'
-import Test from '../views/Test.vue'
+import ScanEquipment from '../views/ScanEquipment.vue'
+import EquipmentList from '../views/EquipmentList.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -54,9 +55,17 @@ const router = createRouter({
       }
     },
     {
-      path: '/test',
-      name: 'Test',
-      component: Test,
+      path: '/scan',
+      name: 'ScanEquipment',
+      component: ScanEquipment,
+      meta: { 
+        layout: DashboardLayout,
+      }
+    },
+    {
+      path: '/equipment-list',
+      name: 'EquipmentList',
+      component: EquipmentList,
       meta: { 
         layout: DashboardLayout,
       }

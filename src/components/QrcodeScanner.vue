@@ -1,7 +1,7 @@
 <template>
-    <div id="qr-code-full-region"></div>
-    <button @click="initScanner">Scan Again</button>
-    {{}}
+    <div id="qr-code-full-region" class="scan-box mb-5">
+    </div>
+    <button class="btn btn-primary w-25" v-if="button" @click="initScanner">Scan Again</button>
 </template>
 <script>
 
@@ -14,30 +14,50 @@ export default {
 		fps: Number,
 	},
     emits: ["result"],
+    data() {
+        return {
+            button: false,
+            html5QrcodeScanner:  null
+        }
+    },
     methods: {
         initScanner() {
+            this.button = false;
+
+
             var config = { fps: this.fps ? this.fps : 10 };
             if (this.qrbox) {
                 config['qrbox'] = this.qrbox;
             }
 
-            function onScanSuccess(decodedText, decodedResult) {
-                console.log("nesto",decodedResult);
-                // this.$emit('result', qrCodeMessage)
-                console.log(`Scan result: ${decodedText}`, decodedResult);
-                html5QrcodeScanner.clear();
-            }
             
-            var html5QrcodeScanner = new Html5QrcodeScanner(
+            this.html5QrcodeScanner = new Html5QrcodeScanner(
                 "qr-code-full-region", config);
-            html5QrcodeScanner.render(onScanSuccess);
-        }
+            this.html5QrcodeScanner.render((decodedText, decodedResult) => {
+                this.html5QrcodeScanner.clear()
+                this.button = true
+            });
+
+        },
+        showButton() {
+            console.log("show button")
+            this.button = true
+        },
     },
 	mounted() {
         this.initScanner()
+        this.button = false;
 	}
 }
 </script>
-<style lang="">
-    
+<style lang="scss" scoped>
+    .scan-box {
+        border: 2px solid #bababa!important;
+        border-radius: 10px;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 </style>

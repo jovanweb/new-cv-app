@@ -12,17 +12,22 @@
                         CV Tables
                     </router-link>
                 </li>
-                <li>
-                    <router-link to="day-off" active-class="active">
+                <!-- <li>
+                    <router-link to="/day-off" active-class="active">
                         <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="25" style="shape-rendering:geometricPrecision;text-rendering:geometricPrecision;image-rendering:optimizeQuality;fill-rule:evenodd;clip-rule:evenodd" viewBox="0 0 846.66 846.66"><path  fill="currentColor" d="M130.28 100.36h35.21V55.1c0-11.43 9.28-20.71 20.71-20.71h70.42c11.43 0 20.7 9.28 20.7 20.71v45.26h292.02V55.1c0-11.43 9.27-20.71 20.71-20.71h70.41c11.43 0 20.71 9.28 20.71 20.71v45.26h35.21c66.87 0 121.51 54.64 121.51 121.52v468.87c0 66.88-54.64 121.52-121.51 121.52h-586.1c-66.87 0-121.51-54.64-121.51-121.52V221.88c0-66.88 54.64-121.52 121.51-121.52zm-16.04 447.63h84.91v84.91h-84.91v-84.91zm533.27 0h84.92v84.91h-84.92v-84.91zm-177.76 0h84.91v84.91h-84.91v-84.91zm-177.75 0h84.91v84.91H292v-84.91zM114.24 417.52h84.91v84.91h-84.91v-84.91zm533.27 0h84.92v84.91h-84.92v-84.91zm-177.76 0h84.91v84.91h-84.91v-84.91zm-177.75 0h84.91v84.91H292v-84.91zm-85.09-296.45v45.87h29V75.81h-29v45.26zm403.85 45.87h28.99V75.81h-28.99v91.13zM50.19 324.33h746.28v-34.86H50.19v34.86zm746.28 41.42H50.19v325c0 44.01 36.08 80.1 80.09 80.1h586.1c44.01 0 80.09-36.09 80.09-80.1v-325zM50.19 248.05h746.28v-26.17c0-44.01-36.08-80.1-80.09-80.1h-35.21v45.87c0 11.43-9.28 20.71-20.71 20.71h-70.41c-11.44 0-20.71-9.28-20.71-20.71v-45.87H277.32v45.87c0 11.43-9.27 20.71-20.7 20.71H186.2c-11.43 0-20.71-9.28-20.71-20.71v-45.87h-35.21c-44.01 0-80.09 36.09-80.09 80.1v26.17z" style="fill-rule:nonzero"/></svg>
                         Day Off
                     </router-link>
-                </li>
-
+                </li> -->
                 <li>
-                    <router-link to="/test" active-class="active">
-                        <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="25" style="shape-rendering:geometricPrecision;text-rendering:geometricPrecision;image-rendering:optimizeQuality;fill-rule:evenodd;clip-rule:evenodd" viewBox="0 0 846.66 846.66"><path  fill="currentColor" d="M130.28 100.36h35.21V55.1c0-11.43 9.28-20.71 20.71-20.71h70.42c11.43 0 20.7 9.28 20.7 20.71v45.26h292.02V55.1c0-11.43 9.27-20.71 20.71-20.71h70.41c11.43 0 20.71 9.28 20.71 20.71v45.26h35.21c66.87 0 121.51 54.64 121.51 121.52v468.87c0 66.88-54.64 121.52-121.51 121.52h-586.1c-66.87 0-121.51-54.64-121.51-121.52V221.88c0-66.88 54.64-121.52 121.51-121.52zm-16.04 447.63h84.91v84.91h-84.91v-84.91zm533.27 0h84.92v84.91h-84.92v-84.91zm-177.76 0h84.91v84.91h-84.91v-84.91zm-177.75 0h84.91v84.91H292v-84.91zM114.24 417.52h84.91v84.91h-84.91v-84.91zm533.27 0h84.92v84.91h-84.92v-84.91zm-177.76 0h84.91v84.91h-84.91v-84.91zm-177.75 0h84.91v84.91H292v-84.91zm-85.09-296.45v45.87h29V75.81h-29v45.26zm403.85 45.87h28.99V75.81h-28.99v91.13zM50.19 324.33h746.28v-34.86H50.19v34.86zm746.28 41.42H50.19v325c0 44.01 36.08 80.1 80.09 80.1h586.1c44.01 0 80.09-36.09 80.09-80.1v-325zM50.19 248.05h746.28v-26.17c0-44.01-36.08-80.1-80.09-80.1h-35.21v45.87c0 11.43-9.28 20.71-20.71 20.71h-70.41c-11.44 0-20.71-9.28-20.71-20.71v-45.87H277.32v45.87c0 11.43-9.27 20.71-20.7 20.71H186.2c-11.43 0-20.71-9.28-20.71-20.71v-45.87h-35.21c-44.01 0-80.09 36.09-80.09 80.1v26.17z" style="fill-rule:nonzero"/></svg>
-                        test
+                    <router-link to="/equipment-list" active-class="active">
+<svg xmlns="http://www.w3.org/2000/svg" width="28" viewBox="0 0 256 256"><path fill="none" d="M0 0h256v256H0z"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" d="M88 64h128M88 128h128M88 192h128"/><circle cx="44" cy="64" r="12" fill="currentColor"/><circle cx="44" cy="128" r="12" fill="currentColor"/><circle cx="44" cy="192" r="12" fill="currentColor"/></svg>
+                        Equipment List
+                    </router-link>
+                </li>
+                <li>
+                    <router-link to="/scan" active-class="active">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" viewBox="0 0 24 24" fill="none"><path fill="currentColor" d="M8 6H6v2h2V6Z"/><path fill="currentColor" d="M3 5.25A2.25 2.25 0 0 1 5.25 3h3.5A2.25 2.25 0 0 1 11 5.25v3.5A2.25 2.25 0 0 1 8.75 11h-3.5A2.25 2.25 0 0 1 3 8.75v-3.5Zm2.25-.75a.75.75 0 0 0-.75.75v3.5c0 .414.336.75.75.75h3.5a.75.75 0 0 0 .75-.75v-3.5a.75.75 0 0 0-.75-.75h-3.5ZM6 16h2v2H6v-2Z"/><path fill="currentColor" d="M3 15.25A2.25 2.25 0 0 1 5.25 13h3.5A2.25 2.25 0 0 1 11 15.25v3.5A2.25 2.25 0 0 1 8.75 21h-3.5A2.25 2.25 0 0 1 3 18.75v-3.5Zm2.25-.75a.75.75 0 0 0-.75.75v3.5c0 .414.336.75.75.75h3.5a.75.75 0 0 0 .75-.75v-3.5a.75.75 0 0 0-.75-.75h-3.5ZM18 6h-2v2h2V6Z"/><path fill="currentColor" d="M15.25 3A2.25 2.25 0 0 0 13 5.25v3.5A2.25 2.25 0 0 0 15.25 11h3.5A2.25 2.25 0 0 0 21 8.75v-3.5A2.25 2.25 0 0 0 18.75 3h-3.5Zm-.75 2.25a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 .75.75v3.5a.75.75 0 0 1-.75.75h-3.5a.75.75 0 0 1-.75-.75v-3.5ZM13 13h2.75v2.75H13V13ZM18.25 15.75h-2.5v2.5H13V21h2.75v-2.75h2.5V21H21v-2.75h-2.75v-2.5ZM18.25 15.75V13H21v2.75h-2.75Z"/></svg>
+                        Scan Equipment
                     </router-link>
                 </li>
             </ul>
