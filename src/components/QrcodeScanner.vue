@@ -74,6 +74,8 @@ export default {
         height: 40px;
         padding: 0 15px;
         transition: all .3s ease;
+        display: block;
+        width: 100%;
 
         &:hover {
             background-color: #f1f1f1;

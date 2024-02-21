@@ -15,3 +15,29 @@ html, body, p, a, h1,h2,h3,h4,h5,h6 {
     display: table-cell;
     vertical-align: middle;
 }
+
+*::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: #e2e2e2;
+    border-radius: 50px;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    background: #222;
+    width: 4.5px;
+  }
+  
+  ::-webkit-scrollbar-thumb:horizontal{
+    background: #222;
+    border-radius: 50px;
+  }
+  
+  * {
+    scrollbar-color: #222 #e2e2e2;
+    scrollbar-width: thin;
+  }
